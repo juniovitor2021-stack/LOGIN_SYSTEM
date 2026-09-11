@@ -1,0 +1,6 @@
+node.js permite usar JS fora do navegador
+npm é o gerenviador de pacotes do mode.JS
+Docker criar um ambiente padronizador para rodar os sistemas 
+npm init -m gera o arquivo package.json
+express cria rotas com o servidor htpp
+json gera o token da sessão para o login
