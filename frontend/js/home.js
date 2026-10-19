@@ -39,17 +39,17 @@ document.getElementById(
 }
 carregarDashboard();
 
-const municipios = ["Município A", "Município B", "Município C"];
-const quantidades = [45000, 21000, 15000];
+const cursos = ["0", "10", "20", "30", "40", "50", "60", "70", "80"  ];
+const quantidades = [0, 100, 200, 300, 400, 500, 600, 700, 800];
 const elementoGrafico = document.getElementById(
-"graficoPrincipal"
+"graficoPrincipal" 
 );
 new Chart(elementoGrafico, {
 type: "bar",
 data: {
-labels: municipios,
+labels: cursos,
 datasets: [{
-label: "Quantidade de registros",
+label: "Matriculas registradas por turma",
 data: quantidades
 }]
 },
@@ -57,7 +57,7 @@ options: {
 responsive: true,
 plugins: {
 legend: {
-display: false
+display: true
 }
 },
 scales: {
@@ -67,3 +67,6 @@ beginAtZero: true
 }
 }
 });
+
+
+
