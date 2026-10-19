@@ -19,7 +19,6 @@ document.getElementById(
 ).textContent = dados.media_registros.toLocaleString(
 "pt-BR"
 
-
 );
 document.getElementById(
 "maiorValor"
