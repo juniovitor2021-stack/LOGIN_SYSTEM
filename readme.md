@@ -180,7 +180,7 @@ Acesse a página de login e utilize as credenciais previstas na configuração d
 
 Após a autenticação, acesse o dashboard para visualizar os indicadores e gráficos referentes às turmas, vagas e matrículas das Escolas do Futuro de Goiás, no período de 2022 a 2025.
 
-### Passo 5 — Encerrar a execução
+## Passo 5 — Encerrar a execução
 
 Para encerrar o servidor local, utilize a opção de parada do Live Server no Visual Studio Code.
 
